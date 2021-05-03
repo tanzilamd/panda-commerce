@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .container{
     margin-bottom: 100px;
 }
@@ -24,17 +27,25 @@
     border-radius: 10px;
 }
 .cat1{
-    background-image: linear-gradient(to right,orange,yellow);
+    background-image: linear-gradient(to right,orange,lightsalmon);
 }
 .cat2{
-    background-image: linear-gradient(to left,teal,aquamarine);
+    background-image: linear-gradient(to right,teal,aquamarine);
 }
 .cat3{
-    background-image: linear-gradient(to left,darkturquoise,lightblue);;
+    background-image: linear-gradient(to right,darkturquoise,lightblue);;
 }
 .categories h1{
-    color: white;
+    color: white ;
 }
 .categories img{
     width: 100px;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
 }
