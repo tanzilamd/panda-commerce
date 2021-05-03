@@ -41,11 +41,13 @@ html{
 .categories img{
     width: 100px;
 }
-.card-footer{
-    background-color: white;
-    border: none;
-}
+
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    background-color: white;
+    border: none;
 }
