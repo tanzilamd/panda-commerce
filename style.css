@@ -51,3 +51,15 @@ html{
     background-color: white;
     border: none;
 }
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+}
+#subscribe button{
+    margin-top: 10px;
+}
+footer{
+    text-align: center;
+}
